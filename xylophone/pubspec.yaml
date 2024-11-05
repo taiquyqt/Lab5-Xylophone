@@ -1,0 +1,31 @@
+name: xylophone
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/sounds/note1.mp3
+    - assets/sounds/note2.mp3
+    - assets/sounds/note3.mp3
+    - assets/sounds/note4.mp3
+    - assets/sounds/note5.mp3
+    - assets/sounds/note6.mp3
+    - assets/sounds/note7.mp3
+
+
